@@ -1,0 +1,36 @@
+name: publish
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true 면 큐 읽기·이미지 확인·컨테이너 생성까지만 (게시·커밋 안 함)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-queue
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 예약 게시
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_MAEIL_GEUGIL }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          MAX_POSTS: "2"
+        run: python3 scripts/publish_queue.py

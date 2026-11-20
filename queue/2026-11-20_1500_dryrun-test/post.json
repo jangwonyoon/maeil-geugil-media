@@ -1,0 +1,18 @@
+{
+  "publish_at": "2026-11-20T15:00:00+09:00",
+  "caption": "caption.txt",
+  "caption_sha256": "44939c4fa27f97377ecc141d272489529f1d2527b4975e51ce00488d4ec9720b",
+  "images": [
+    {
+      "file": "01.jpg",
+      "bytes": 376450,
+      "sha256": "573027f84bb3ab59eafc72ea34da9fe25e1ccc833c4d0ef0b7b9b9b363b78608"
+    }
+  ],
+  "kind": "image",
+  "status": "queued",
+  "attempts": 0,
+  "test": true,
+  "enqueued_at": "2026-11-20T14:55:00+09:00",
+  "source": "posts/_test/01.jpg"
+}
