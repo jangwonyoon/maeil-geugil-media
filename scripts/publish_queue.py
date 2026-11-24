@@ -170,7 +170,12 @@ def head_sha() -> str:
 def commit_push(message: str) -> None:
     if DRY_RUN:
         return
-    git("add", "-A", "queue", "posted", "stale", "failed")
+    # 없는 폴더(stale/failed 가 아직 없을 때)를 pathspec 으로 주면 git add 가 128 로 실패한다.
+    # 작업 트리에 있거나 인덱스에 추적 중인 경로만 넘긴다 (옮겨서 비워진 queue 도 삭제가 기록되게).
+    paths = [p for p in ("queue", "posted", "stale", "failed")
+             if (ROOT / p).exists() or git("ls-files", "--", p).stdout.strip()]
+    if paths:
+        git("add", "-A", "--", *paths)
     if not git("status", "--porcelain").stdout.strip():
         return
     git("commit", "-m", message)
