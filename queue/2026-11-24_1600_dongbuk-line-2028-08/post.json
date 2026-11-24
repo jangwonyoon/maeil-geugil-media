@@ -1,0 +1,17 @@
+{
+  "publish_at": "2026-11-24T16:00:00+09:00",
+  "caption": "caption.txt",
+  "caption_sha256": "da15cd31afd3c19443ad48fb25f743209743449c499ded1489ff997d53759a9a",
+  "images": [
+    {
+      "file": "01.jpg",
+      "bytes": 232657,
+      "sha256": "919a0c5ac7793f1ecc1405d0d47e2a53807b08a21121777295828ac418611494"
+    }
+  ],
+  "kind": "image",
+  "status": "queued",
+  "attempts": 0,
+  "enqueued_at": "2026-11-24T10:51:27+09:00",
+  "source": "동북선_공사완료_2028년8월"
+}
