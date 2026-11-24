@@ -1,0 +1,22 @@
+{
+  "publish_at": "2026-11-24T10:49:00+09:00",
+  "caption": "caption.txt",
+  "caption_sha256": "8cb708fde086496573a1cb441ae5f2cc41b44805c1cc7d19dac6f912eea79e9f",
+  "images": [
+    {
+      "file": "01.jpg",
+      "bytes": 152228,
+      "sha256": "30ff54d6b8169dd15ba7e2811691df727253e5c5b58054d0e29f88b822095fc2"
+    },
+    {
+      "file": "02.jpg",
+      "bytes": 153530,
+      "sha256": "ce9306dc86bc0417d1c4e4db6d6ac68e68012521b1f262a9da58bb68b4d02444"
+    }
+  ],
+  "kind": "carousel",
+  "status": "queued",
+  "attempts": 0,
+  "enqueued_at": "2026-11-24T10:46:13+09:00",
+  "source": "서울지하철_1-8호선_25일파업예고"
+}
