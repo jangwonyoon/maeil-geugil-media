@@ -7,9 +7,14 @@
       "file": "01.jpg",
       "bytes": 182522,
       "sha256": "d297cea172acdcda7f0975370ae776fba8d9f3cdcd158f8eb3e02e8dd582bea3"
+    },
+    {
+      "file": "02.jpg",
+      "bytes": 179672,
+      "sha256": "eb98d7d5f6a978213d1391a0ab2335d5c8eff16d6a3d3264bb06c4898f5143e8"
     }
   ],
-  "kind": "image",
+  "kind": "carousel",
   "status": "queued",
   "attempts": 0,
   "enqueued_at": "2026-11-24T10:51:31+09:00",

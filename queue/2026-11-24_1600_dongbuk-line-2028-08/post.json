@@ -1,5 +1,5 @@
 {
-  "publish_at": "2026-11-24T16:00:00+09:00",
+  "publish_at": "2026-11-24T12:46:00+09:00",
   "caption": "caption.txt",
   "caption_sha256": "da15cd31afd3c19443ad48fb25f743209743449c499ded1489ff997d53759a9a",
   "images": [
@@ -7,9 +7,14 @@
       "file": "01.jpg",
       "bytes": 232657,
       "sha256": "919a0c5ac7793f1ecc1405d0d47e2a53807b08a21121777295828ac418611494"
+    },
+    {
+      "file": "02.jpg",
+      "bytes": 179672,
+      "sha256": "eb98d7d5f6a978213d1391a0ab2335d5c8eff16d6a3d3264bb06c4898f5143e8"
     }
   ],
-  "kind": "image",
+  "kind": "carousel",
   "status": "queued",
   "attempts": 0,
   "enqueued_at": "2026-11-24T10:51:27+09:00",
