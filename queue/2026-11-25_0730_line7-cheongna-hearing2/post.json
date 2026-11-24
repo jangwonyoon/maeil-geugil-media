@@ -1,0 +1,17 @@
+{
+  "publish_at": "2026-11-25T07:30:00+09:00",
+  "caption": "caption.txt",
+  "caption_sha256": "19c227fe4765f153eed8108eca9911bafc0de25b307325b16c1355c875174f9e",
+  "images": [
+    {
+      "file": "01.jpg",
+      "bytes": 182522,
+      "sha256": "d297cea172acdcda7f0975370ae776fba8d9f3cdcd158f8eb3e02e8dd582bea3"
+    }
+  ],
+  "kind": "image",
+  "status": "queued",
+  "attempts": 0,
+  "enqueued_at": "2026-11-24T10:51:31+09:00",
+  "source": "7호선_청라연장_2차공청회"
+}
