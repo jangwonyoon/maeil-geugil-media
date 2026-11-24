@@ -15,8 +15,13 @@
     }
   ],
   "kind": "carousel",
-  "status": "queued",
+  "status": "posted",
   "attempts": 0,
   "enqueued_at": "2026-11-24T10:46:13+09:00",
-  "source": "서울지하철_1-8호선_25일파업예고"
+  "source": "서울지하철_1-8호선_25일파업예고",
+  "media_id": "17973949491192104",
+  "permalink": "https://www.instagram.com/p/DgG0DJmmkC6/",
+  "media_type": "CAROUSEL_ALBUM",
+  "published_at": "2026-11-24T10:49:46+09:00",
+  "recovered": true
 }
