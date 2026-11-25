@@ -15,8 +15,9 @@
     }
   ],
   "kind": "carousel",
-  "status": "queued",
+  "status": "stale",
   "attempts": 0,
   "enqueued_at": "2026-11-24T10:51:31+09:00",
-  "source": "7호선_청라연장_2차공청회"
+  "source": "7호선_청라연장_2차공청회",
+  "stale_at": "2026-11-25T13:58:30+09:00"
 }
